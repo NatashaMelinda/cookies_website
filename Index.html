@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--Coding By CIMA-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookies</title>
+  <!--Linking font awesome for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar section-content">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">Cookies</h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+
+        <li class="nav-item">
+          <a href="#hero" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero-section" id="hero">
+      <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title">Best Cookies</h2>
+          <h3 class="subtitle">Make your day great with our special cookies!</h3>
+          <p class="description">Welcome to our cookies site, enjoy your favorite cookies.</p>
+
+          <div class="buttons">
+            <a href="order.html" class="button order-now">Order Now</a>
+            <a href="https://wa.me/6289527401060" target="_blank" style="text-decoration: none; color: inherit;"
+              class="button contact-us">Contact Us</a>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <img src="images/pict.hero.png" alt="Hero" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about-section" id="about">
+      <div class="section-content">
+        <div class="about-image-wrapper">
+          <img src="images/pict.2.jpg" alt="About" class="about-image">
+        </div>
+        <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p class="text">At our Cookies house, we present and give our love through many cookies flavour. Our cookies
+            always made with love and ready to make your day more joyful.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu section -->
+    <section class="menu-section" id="menu">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="section-content">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <img src="images/opict1.jpg" alt="Chocolate Cookie" class="menu-image">
+            <h3 class="name">Chocolate Cookie</h3>
+            <h4>IDR 40.000</h4>
+            <p class="text">Chocolate cookie that can solve your problem.</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/pict.3.jpg" alt="Red velvet Cookie" class="menu-image">
+            <h3 class="name">Red velvet Cookie</h3>
+            <h4>IDR 42.000</h4>
+            <p class="text">Red velvet cookie that can make your day colorful. </p>
+          </li>
+          <li class="menu-item">
+            <img src="images/opict4.jpg" alt="Matcha Cookie" class="menu-image">
+            <h3 class="name">Matcha Cookie</h3>
+            <h4>IDR 45.000</h4>
+            <p class="text">Matcha cookie that can make you happy everyday.</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/opict2.jpg" alt="Taro Cookie" class="menu-image">
+            <h3 class="name">Taro Cookie</h3>
+            <h4>IDR 42.000</h4>
+            <p class="text">Taro cookie that you can enjoy while hang out with friends & family.</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/opict5.jpg" alt="Strawberry Cookie" class="menu-image">
+            <h3 class="name">Strawberry Cookie</h3>
+            <h4>IDR 45.000</h4>
+            <p class="text">Strawberry cookie that so sweet such as you.</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/opict6.jpg" alt="Charcoal Cookie" class="menu-image">
+            <h3 class="name">Charcoal Cookie</h3>
+            <h4>IDR 42 .000</h4>
+            <p class="text">New flavour that makes you want it more and more.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="section-content">
+        <ul class="contact-info-list">
+          <li class="contact-info">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <p>Kalimantan Barat, Pontianak Kota, 78112</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-phone"></i>
+            <a href="https://wa.me/6289527401060" target="_blank" style="text-decoration: none; color: inherit;">
+              <p>+62 895-2740-1060</p>
+            </a>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-clock"></i>
+            <p>Monday - Friday: 10:00 AM - 13:00 PM</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-info"></i>
+            <p>www.cookies-home.com</p>
+          </li>
+        </ul>
+
+        <form action="#" class="contact-form" id="contact-form">
+          <input type="text" placeholder="Your name" class="form-input" required>
+          <input type="email" placeholder="Your email" class="form-input" required>
+          <textarea placeholder="Your message" class="form-input" required></textarea>
+          <button type="submit" class="submit-button" id="submit-button">Submit</button>
+        </form>
+      </div>
+
+      <div id="floating-notification" class="notification">Pesan Anda
+        telah terkirim!
+      </div>
+
+      <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          const notification = document.getElementById('floating-notification');
+          notification.style.display = 'block';
+
+          const form = document.getElementById('contact-form');
+          form.reset();
+
+          setTimeout(() => {
+            notification.style.display = 'none';
+          }, 2000);
+        });
+      </script>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer-section">
+      <div class="section-content">
+        <p class="copyright-text">Copyright © 2024 <strong> <a href="#hero" class="policy-link"> Cookies Shop.
+            </a></strong>All rights
+          reserved.</p>
+        <div class="social-link-list">
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Linking swiper script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
